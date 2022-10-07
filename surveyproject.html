@@ -1,0 +1,73 @@
+<html>
+<title></title>
+
+<head>
+    <link rel="stylesheet" href="surveyproject.css">
+    <h1>
+        GeeksforGeeks Survey Form
+    </h1>
+</head>
+
+<body>
+    <form>
+        <div class="survey_form">
+            <label>Name</label><p></p>
+            <input id="box" type="text">
+        </div>
+        <div class="survey_form">
+            <label>Email</label><p></p>
+            <input id="box" type="text">
+        </div>
+        <div class="survey_form">
+            <label>Age</label><p></p>
+            <input id="box" type="text">
+        </div>
+        <div class="survey_form">
+            <label>Which option best describes you ?</label>
+            <p></p>
+            <select name="dropbox">
+                <option>Student</option>
+                <option>Self Employed</option>
+                <option>Others</option>
+            </select>
+        </div>
+        <div class="survey_form">
+            <label>Would you recommend GeeksforGeeks to a friend ?</label>
+            <p></p>
+            <input id="Yes" type="radio" name="cons">
+            <label for="Yes">Yes</label><br>
+            <input id="no" type="radio" name="cons">
+            <label for="no">No</label><br>
+            <input id="maybe" type="radio" name="cons">
+            <label for="maybe">maybe</label><br>
+        </div>
+        <div class="survey_form">
+            <label>Languages and framework known</label><br>
+            <input type="checkbox">
+            <label>C</label><br>
+            <input type="checkbox">
+            <label>C++</label><br>
+            <input type="checkbox">
+            <label>Java</label><br>
+            <input type="checkbox">
+            <label>Python</label><br>
+            <input type="checkbox">
+            <label>Javascript</label><br>
+            <input type="checkbox">
+            <label>React</label><br>
+            <input type="checkbox">
+            <label>Angular</label><br>
+            <input type="checkbox">
+            <label>Django</label><br>
+            <input type="checkbox">
+            <label>Spring</label><br>
+        </div>
+        <div class="survey_form">
+            <label>Any comments or suggestion</label>
+            <textarea id="suggest" rows="5" cols="40"></textarea>
+        </div>
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+
+</html>

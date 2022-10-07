@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #05c46b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.survey_form {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.survey_form label
+{
+    margin-top: 5px;
+}
+
+.survey_form input,
+.survey_form select,
+.survey_form textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.survey_form input[type="radio"],
+.survey_form input[type="checkbox"] 
+{
+    display: inline-block;
+    width: auto;
+}
+
+button
+{
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+textarea
+{
+    margin-top: 5px;
+}
